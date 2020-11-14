@@ -1,0 +1,42 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "build": "webpack --mode=development ",
+    "prod": "webpack --mode=production --watch",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiipoliakov/goit-js-hw-12-countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiipoliakov/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://github.com/sergiipoliakov/goit-js-hw-12-countries#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@pnotify/core": "^5.2.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^3.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "handlebars-webpack-plugin": "^2.2.1",
+    "lodash.debounce": "^4.0.8"
+  }
+}
