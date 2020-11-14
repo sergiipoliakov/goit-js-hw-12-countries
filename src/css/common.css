@@ -16,19 +16,10 @@ img {
   max-width: 100%;
   height: auto;
 }
-.list {
-  list-style: none;
-}
 
 .card {
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* width: 288px; */
-}
-.card-title {
-  text-align: center;
+  width: 640px;
 }
 
 .card-text {
@@ -37,14 +28,12 @@ img {
 }
 
 .card-img-top {
-  width: 288px;
-  padding: 20px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  width: 240px;
 }
 
 .search-form {
-  text-align: center;
   padding: 10px;
 }
 
