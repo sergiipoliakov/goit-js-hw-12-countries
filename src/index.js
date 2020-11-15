@@ -42,7 +42,13 @@ function renderCountrisCard(countries) {
   }
 }
 
-function onFetchError() {}
+function onFetchError() {
+  // console.log(error);
+  // error({
+  //   text: 'please wreate Normal Name Of Country!',
+  //   type: 'info',
+  // });
+}
 
 function renderLIstOfCountrisMarkup(countries) {
   const items = countries.map(country => country.name);
